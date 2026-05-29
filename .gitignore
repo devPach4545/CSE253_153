@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model checkpoints / weights (regenerable; e.g. best_model_raga.pt, raga_bhairav_checkpoint.pt)
+*.pt
+
+# Audio render scratch — FluidSynth writes .wav before mp3, plus per-temperature renders
+bhairav_full_temp*.wav
+bhairav_full_temp*.mp3
+bhairav_full_temp*.mid
+bhairav_temp*.wav
+bhairav_temp*.mp3
+bhairav_temp*.mid
+
+# Optional real-recording anchor input (you supply this locally; not part of the repo)
+real_bhairav.wav
+
+# Throwaway commit-message helper (use: git commit -F COMMIT_MSG.txt)
+COMMIT_MSG.txt
+
+# Personal working material — author's notes + the in-progress presentation (not for graders)
+_notes/
+presentation/
+
+# OS cruft
+.DS_Store
+Thumbs.db

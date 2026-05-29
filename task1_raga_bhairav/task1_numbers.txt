@@ -1,0 +1,35 @@
+{
+  "vocab_size": 126,
+  "param_count": 255742,
+  "best_val_loss": 3.4464,
+  "ppl_lstm": 31.4,
+  "ppl_markov": 41.0,
+  "ppl_uniform": 126.0,
+  "scale_adherence_pct": {
+    "0.5": 100.0,
+    "1.0": 100.0,
+    "1.5": 100.0
+  },
+  "stepwise_pct": {
+    "0.5": 75.8,
+    "1.0": 56.8,
+    "1.5": 34.7
+  },
+  "baseline_lstm_t1": {
+    "scale_adherence": 100.0,
+    "stepwise_pct": 56.8,
+    "ma_sa_frac": 0.375,
+    "cos_to_bhairav": 0.966,
+    "distinct_trigram": 0.82
+  },
+  "baseline_random_in_scale": {
+    "scale_adherence": 100.0,
+    "stepwise_pct": 4.2,
+    "ma_sa_frac": 0.208,
+    "cos_to_bhairav": 0.877,
+    "distinct_trigram": 0.99
+  },
+  "cos_generated_published": 0.966,
+  "cos_generated_grammar": 0.963,
+  "in_scale_mass_generated": 1.0
+}
